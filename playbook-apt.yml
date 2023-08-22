@@ -8,6 +8,6 @@
   - name: using apt to install figlet
     ansible.builtin.apt: # the module we want to run, apt.py
         name: figlet
-        state: present
+        state: absent
     become: yes # elevate status to admin, sudo, enable, etc.
 
