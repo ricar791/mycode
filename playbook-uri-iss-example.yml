@@ -16,5 +16,5 @@
 
   - name: Display the contents of the variable astrojson
     debug:
-      var: astrojson["json"]
-      
+      #var: astrojson["json"]
+      msg: "Location: {{ astrojson.get('json') }}; Date: {{ astrojson.get('date') }}"      
