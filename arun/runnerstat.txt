@@ -1,0 +1,28 @@
+****** PLAYBOOK RUN BREAKDOWN ******
+
+{'skipped': {}, 'ok': {'localhost': 1}, 'dark': {}, 'failures': {}, 'ignored': {}, 'rescued': {}, 'processed': {'localhost': 1}, 'changed': {'localhost': 1}}
+
+EVENT:  playbook_on_start
+TASK:  None
+UUID:  b6c6a24a-9cfe-4462-b1b8-dbbfc7f26131
+
+EVENT:  playbook_on_play_start
+TASK:  None
+UUID:  2796cb99-b8e2-2dda-f758-00000000000a
+
+EVENT:  playbook_on_task_start
+TASK:  apt
+UUID:  2796cb99-b8e2-2dda-f758-00000000000c
+
+EVENT:  runner_on_start
+TASK:  apt
+UUID:  7d0ed4da-3c19-45bd-99cf-4ad98de93898
+
+EVENT:  runner_on_ok
+TASK:  apt
+UUID:  50a63f5a-9a4d-4ea7-8a93-b1f3fd0e6e8a
+
+EVENT:  playbook_on_stats
+TASK:  None
+UUID:  42234fed-7ac5-4dc2-8807-e3d267d0bd5a
+
